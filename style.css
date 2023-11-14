@@ -1,0 +1,66 @@
+body {
+    background-color: grey;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+img {
+    max-width: 60%;
+}
+
+.nav > ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:darkblue
+
+}
+.nav > ul >li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.nav > ul > li > a {
+    text-decoration: none;
+    color: white
+}
+.main-bit {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.why{
+    gap: 20px;
+
+}
+.pros{
+gap:20px;
+grid-column: 1/span 4;
+
+}
+.cons{
+gap:20px
+grid-column:4/span 8;}
+.side{
+    display:grid;
+    gap: 20px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+
+}
+.gridcontainer{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+.gridwhy{
+    grid-column: 1/9;
+}
+.gridside{
+    display: grid;
+    grid-column: 9/13; 
+    grid-area: 1/8/7/13;
+}

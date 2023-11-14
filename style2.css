@@ -1,0 +1,26 @@
+body {
+    background-color: grey;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+img {
+    max-width: 100%;
+}
+#banana {
+    color:yellow;
+    font-size: 24pt;
+}
+#carrot {
+    color:black;
+    background-color: maroon;
+    border-style: dotted;
+    border-width: 2px;
+    border-color:blue;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 20%;
+
+}
+.potato {color:blueviolet}
+.celery {color:green}
